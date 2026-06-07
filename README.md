@@ -14,7 +14,7 @@ Microsoft Sentinel is a cloud-based SIEM (Security Information and Event Managem
 
 
 
-This repo is my personal lab where I:
+This repo is a personal lab where I:
 
 
 
@@ -28,33 +28,31 @@ This repo is my personal lab where I:
 
 
 
-Most security analyst jobs today expect you to know KQL and understand detection engineering. This repo is proof I can do both.
+Repo structure:
 
 
 
-\## Repo structure
+`detections/`        -     Scheduled analytics rules that run automatically in Sentinel
 
-detections/             Scheduled analytics rules that run automatically in Sentinel
+`credential-access/` -     Detections for stolen passwords, token theft, etc
 
-credential-access/    Detections for stolen passwords, token theft, etc
+`execution/`         -     Detections for malicious code being run
 
-execution/            Detections for malicious code being run
+`persistence/`       -     Detections for attackers maintaining access
 
-persistence/          Detections for attackers maintaining access
+`defense-evasion/`   -     Detections for attackers hiding their tracks
 
-defense-evasion/      Detections for attackers hiding their tracks
+`lateral-movement/`  -     Detections for attackers moving between machines
 
-lateral-movement/     Detections for attackers moving between machines
+`exfiltration/`      -     Detections for data being stolen
 
-exfiltration/         Detections for data being stolen
+`hunting-queries/`   -     Queries for proactively searching for threats
 
-hunting-queries/        Queries for proactively searching for threats
+`playbooks/`         -     Automated response actions (e.g. auto-disable a compromised user)
 
-playbooks/              Automated response actions (e.g. auto-disable a compromised user)
+`deployment/`        -     Infrastructure-as-code to deploy this whole lab in one click
 
-deployment/             Infrastructure-as-code to deploy this whole lab in one click
-
-docs/                   Walkthroughs, screenshots, and writeups
+`docs/`              -     Walkthroughs, screenshots, and writeups
 
 
 
@@ -62,7 +60,7 @@ The folder names under `detections/` come straight from MITRE ATT\&CK tactics, w
 
 
 
-How to read this repo
+How to read this repo:
 
 
 
@@ -84,7 +82,7 @@ If you want a tour, start in `docs/` for the full walkthroughs with screenshots.
 
 
 
-Tech used
+Tech used:
 
 
 
@@ -100,7 +98,7 @@ Tech used
 
 
 
-Status
+Status:
 
 
 

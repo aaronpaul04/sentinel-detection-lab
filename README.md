@@ -56,7 +56,7 @@ If you want a tour, start in `docs/` for the full walkthroughs with screenshots.
 
 The folder names under `detections/` come straight from MITRE ATT&CK tactics, which is the standard way SOC teams organize their detections.
 
-## Status:
+## Status
 
 Active build. New detections added regularly.
 
